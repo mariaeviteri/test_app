@@ -39,6 +39,9 @@ jobs:
           cmd: install
       - name: Run tests
         run: bundler exec rspec .
+      - name: Install dependencies
+        run: |
+          gem install brakeman
       - name: Run brakeman
         run: brakeman -o brakeman.txt
       - name: Run rubocop

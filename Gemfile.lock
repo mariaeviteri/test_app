@@ -72,7 +72,8 @@ GEM
     bindex (0.8.1)
     bootsnap (1.18.4)
       msgpack (~> 1.2)
-    breakman (1.0.0)
+    brakeman (6.2.1)
+      racc
     builder (3.3.0)
     capybara (3.40.0)
       addressable
@@ -266,7 +267,7 @@ PLATFORMS
 
 DEPENDENCIES
   bootsnap
-  breakman
+  brakeman
   capybara
   debug
   importmap-rails

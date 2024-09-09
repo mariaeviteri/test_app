@@ -78,5 +78,5 @@ group :test do
   gem "webdrivers"
 end
 
-gem 'breakman'
+gem 'brakeman'
 gem 'rubocop'
